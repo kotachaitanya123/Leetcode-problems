@@ -1,4 +1,3 @@
-Java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         // Find the length of the array
