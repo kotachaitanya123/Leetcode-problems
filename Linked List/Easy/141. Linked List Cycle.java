@@ -1,10 +1,10 @@
 TC - O(N)
 SC - O(1)
 
-// Before we get into this question we need to discuss about hare and tortoise algorithm where we will have two pointers and one say (slow) takes one step at a time and the
-// other pointer say (fast) takes two steps at a time if there is a cycle then the last node does not point to null and it keeps on moving in the list and there is a possibility
-// that the slow and fast will meet any certain point and thats when we return true, if the above fails then the fast will point to null and we will break from the
-// while loop and execute and return false.
+Before we get into this question we need to discuss about hare and tortoise algorithm where we will have two pointers and one say (slow) takes one step at a time and the
+other pointer say (fast) takes two steps at a time if there is a cycle then the last node does not point to null and it keeps on moving in the list and there is a possibility
+that the slow and fast will meet any certain point and thats when we return true, if the above fails then the fast will point to null and we will break from the
+while loop and execute and return false.
 
 /**
  * Definition for singly-linked list.
