@@ -1,11 +1,11 @@
 TC - O(N)
 SC(1)
 
-// in the below problem we are given with a value(val) and a linked list we are required to remove the elements that are equal to the val from the linked list
-// we need to check if the head is null then return null and there is another edge case that we have deal with that is if all the elements of the linked list are equal
-// and equal to the val then we need to return the empty list thats what the first while does.
-// in the second while loop we will check if the cur and cur.next != null as if the cur.next == val we will skip that by cur.next = cur.next.next, else we will move the
-// cur by one position and at the end we will return the head of the linked list.
+in the below problem we are given with a value(val) and a linked list we are required to remove the elements that are equal to the val from the linked list
+we need to check if the head is null then return null and there is another edge case that we have deal with that is if all the elements of the linked list are equal
+and equal to the val then we need to return the empty list thats what the first while does.
+in the second while loop we will check if the cur and cur.next != null as if the cur.next == val we will skip that by cur.next = cur.next.next, else we will move the
+cur by one position and at the end we will return the head of the linked list.
 
 /**
  * Definition for singly-linked list.
