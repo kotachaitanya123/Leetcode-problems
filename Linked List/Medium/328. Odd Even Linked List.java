@@ -16,7 +16,7 @@ SC - O(1)
  */
 class Solution {
     public ListNode oddEvenList(ListNode head) {
-        if(head == null || head.next == null) return null;
+        if(head == null || head.next == null) return ;
 
         ListNode odd = head, even = head.next, evenHead = even;
 
