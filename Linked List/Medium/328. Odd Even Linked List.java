@@ -1,8 +1,8 @@
 TC - O(N)
 SC - O(1)
 
-  Problem : In the below problem we are given with a linked list we need place all the nodes in the odd indices comes first and later the even indices nodes, we need
-            to solve the problem in O(N) and O(1) space, and the indices start as the first node is considered to be the odd node.
+  Problem : In the below problem we are given with a linked list we need to place all the nodes in the odd indices comes first and later the even indices nodes, we need
+            to solve the problem in O(N) and O(1) space, and the indices start as the first node is considered to be the odd node and second one is the even node and so on.    
 
 /**
  * Definition for singly-linked list.
