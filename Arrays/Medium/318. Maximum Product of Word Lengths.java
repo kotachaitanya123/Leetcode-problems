@@ -1,6 +1,8 @@
 TC - O(N ^ 2)
 SC - O(N)
 
+  Topics - Arrays, Strings, Bit Manipulation.
+
   Problem : In the below problem we are given an array of strings and we needx to find two strings from the array that does not have any common word in the two
             strings and we need to return the product of the two strings.
   Intuition : 
